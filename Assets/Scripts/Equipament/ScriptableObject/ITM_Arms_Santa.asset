@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b6c24796a3b414f9a5201181c724ae, type: 3}
+  m_Name: ITM_Arms_Santa
+  m_EditorClassIdentifier: 
+  id: 'Arms Armor '
+  displayName: Arms Armor Santa
+  description: 
+  icon: {fileID: 0}
+  slot: 2
+  prefabVisual: {fileID: 7489976282344327582, guid: f3b1325440375c64e86fcced2d21097d, type: 3}
+  armor: 0
+  weight: 0

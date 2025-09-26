@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SCN_Fase2.unity
     guid: 10e5957b4b33c0b4e902e650fcc5edce
+  - enabled: 1
+    path: Assets/Scenes/SCN_UI_Lab.unity
+    guid: e2ccd863f2e86054e9eb058f0c950ee8
   m_configObjects: {}
