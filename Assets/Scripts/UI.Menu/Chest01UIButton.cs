@@ -35,6 +35,6 @@ public class Chest01UIButton : MonoBehaviour
         if (slotImage_Chest01)      slotImage_Chest01.gameObject.SetActive(on);
         if (previewImage_ItemChest) previewImage_ItemChest.gameObject.SetActive(on);
 
-        if (txtPreviewName) txtPreviewName.text = on ? "Chest" : "";
+        if (txtPreviewName) txtPreviewName.text = on ? "Chest On, Armor Santa, equipamento destinado a vencer a mascara da morte" : "";
     }
 }
