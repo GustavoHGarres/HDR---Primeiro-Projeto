@@ -1,0 +1,1198 @@
+{
+	"DTU Version" : 4,
+	"Asset Name" : "Sword_01",
+	"Import Name" : "MRLN_Sword01_4985",
+	"Asset Type" : "StaticMesh",
+	"Use Experimental Animation Transfer" : false,
+	"Asset Id" : "MRLN_Sword01_4985",
+	"Content Type" : "Unknown",
+	"FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/Sword_01.fbx",
+	"Base FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/Sword_01_base.fbx",
+	"HD FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/Sword_01_HD.fbx",
+	"Import Folder" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/",
+	"Product Name" : "",
+	"Product Component Name" : "",
+	"Materials" : [
+		{
+			"Version" : 4,
+			"Asset Name" : "MRLN_Sword01_4985",
+			"Asset Label" : "Sword01",
+			"Material Name" : "SwrdHlt01",
+			"Material Type" : "DAZ Studio Default",
+			"Value" : "Unknown",
+			"Properties" : [
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Diffuse Color",
+					"Value" : "#cccccc",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdHlt01.jpg"
+				},
+				{
+					"Name" : "Diffuse Strength",
+					"Label" : "Diffuse Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossiness",
+					"Label" : "Glossiness",
+					"Value" : 0.95,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Color",
+					"Label" : "Specular Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Strength",
+					"Label" : "Specular Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Multiply Specular Through Opacity",
+					"Label" : "Multiply Specular Through Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Color",
+					"Label" : "Ambient Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Strength",
+					"Label" : "Ambient Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Opacity Strength",
+					"Label" : "Opacity Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Bump Strength",
+					"Value" : 0.012,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdHlt01B.jpg"
+				},
+				{
+					"Name" : "Negative Bump",
+					"Label" : "Negative Bump",
+					"Value" : -0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Positive Bump",
+					"Label" : "Positive Bump",
+					"Value" : 0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Displacement Strength",
+					"Label" : "Displacement Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Minimum Displacement",
+					"Label" : "Minimum Displacement",
+					"Value" : -0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Maximum Displacement",
+					"Label" : "Maximum Displacement",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 0.006000001,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/ExportTextures/MRLN_SwrdHlt01B_nm.png"
+				},
+				{
+					"Name" : "Reflection Color",
+					"Label" : "Reflection Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Reflection Strength",
+					"Label" : "Reflection Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Color",
+					"Label" : "Refraction Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Strength",
+					"Label" : "Refraction Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Index of Refraction",
+					"Label" : "Index of Refraction",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Sheen Color",
+					"Label" : "Sheen Color",
+					"Value" : "#666666",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Scatter Color",
+					"Label" : "Scatter Color",
+					"Value" : "#cc260f",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Thickness",
+					"Label" : "Thickness",
+					"Value" : 0.25,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Lighting Model",
+					"Label" : "Lighting Model",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 89.9,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		},
+		{
+			"Version" : 4,
+			"Asset Name" : "MRLN_Sword01_4985",
+			"Asset Label" : "Sword01",
+			"Material Name" : "SwrdWrp01",
+			"Material Type" : "DAZ Studio Default",
+			"Value" : "Unknown",
+			"Properties" : [
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Diffuse Color",
+					"Value" : "#cccccc",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdWrp01.jpg"
+				},
+				{
+					"Name" : "Diffuse Strength",
+					"Label" : "Diffuse Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossiness",
+					"Label" : "Glossiness",
+					"Value" : 0.95,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Color",
+					"Label" : "Specular Color",
+					"Value" : "#fbfbfb",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Strength",
+					"Label" : "Specular Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Multiply Specular Through Opacity",
+					"Label" : "Multiply Specular Through Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Color",
+					"Label" : "Ambient Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Strength",
+					"Label" : "Ambient Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Opacity Strength",
+					"Label" : "Opacity Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Bump Strength",
+					"Value" : 0.12,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdWrp01B.jpg"
+				},
+				{
+					"Name" : "Negative Bump",
+					"Label" : "Negative Bump",
+					"Value" : -0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Positive Bump",
+					"Label" : "Positive Bump",
+					"Value" : 0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Displacement Strength",
+					"Label" : "Displacement Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Minimum Displacement",
+					"Label" : "Minimum Displacement",
+					"Value" : -0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Maximum Displacement",
+					"Label" : "Maximum Displacement",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 0.06,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/ExportTextures/MRLN_SwrdWrp01B_nm.png"
+				},
+				{
+					"Name" : "Reflection Color",
+					"Label" : "Reflection Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Reflection Strength",
+					"Label" : "Reflection Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Color",
+					"Label" : "Refraction Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Strength",
+					"Label" : "Refraction Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Index of Refraction",
+					"Label" : "Index of Refraction",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Sheen Color",
+					"Label" : "Sheen Color",
+					"Value" : "#666666",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Scatter Color",
+					"Label" : "Scatter Color",
+					"Value" : "#cc260f",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Thickness",
+					"Label" : "Thickness",
+					"Value" : 0.25,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Lighting Model",
+					"Label" : "Lighting Model",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 89.9,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		},
+		{
+			"Version" : 4,
+			"Asset Name" : "MRLN_Sword01_4985",
+			"Asset Label" : "Sword01",
+			"Material Name" : "SwrdQulln01",
+			"Material Type" : "DAZ Studio Default",
+			"Value" : "Unknown",
+			"Properties" : [
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Diffuse Color",
+					"Value" : "#cccccc",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdQulln01.jpg"
+				},
+				{
+					"Name" : "Diffuse Strength",
+					"Label" : "Diffuse Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossiness",
+					"Label" : "Glossiness",
+					"Value" : 0.95,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Color",
+					"Label" : "Specular Color",
+					"Value" : "#f9f9f9",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Strength",
+					"Label" : "Specular Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Multiply Specular Through Opacity",
+					"Label" : "Multiply Specular Through Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Color",
+					"Label" : "Ambient Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Strength",
+					"Label" : "Ambient Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Opacity Strength",
+					"Label" : "Opacity Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Bump Strength",
+					"Value" : 0.012,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdQulln01B.jpg"
+				},
+				{
+					"Name" : "Negative Bump",
+					"Label" : "Negative Bump",
+					"Value" : -0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Positive Bump",
+					"Label" : "Positive Bump",
+					"Value" : 0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Displacement Strength",
+					"Label" : "Displacement Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Minimum Displacement",
+					"Label" : "Minimum Displacement",
+					"Value" : -0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Maximum Displacement",
+					"Label" : "Maximum Displacement",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 0.006000001,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/ExportTextures/MRLN_SwrdQulln01B_nm.png"
+				},
+				{
+					"Name" : "Reflection Color",
+					"Label" : "Reflection Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Reflection Strength",
+					"Label" : "Reflection Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Color",
+					"Label" : "Refraction Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Strength",
+					"Label" : "Refraction Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Index of Refraction",
+					"Label" : "Index of Refraction",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Sheen Color",
+					"Label" : "Sheen Color",
+					"Value" : "#666666",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Scatter Color",
+					"Label" : "Scatter Color",
+					"Value" : "#cc260f",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Thickness",
+					"Label" : "Thickness",
+					"Value" : 0.25,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Lighting Model",
+					"Label" : "Lighting Model",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 89.9,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		},
+		{
+			"Version" : 4,
+			"Asset Name" : "MRLN_Sword01_4985",
+			"Asset Label" : "Sword01",
+			"Material Name" : "SwrdBld01",
+			"Material Type" : "DAZ Studio Default",
+			"Value" : "Unknown",
+			"Properties" : [
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Diffuse Color",
+					"Value" : "#cccccc",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdBld01.jpg"
+				},
+				{
+					"Name" : "Diffuse Strength",
+					"Label" : "Diffuse Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossiness",
+					"Label" : "Glossiness",
+					"Value" : 0.95,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Color",
+					"Label" : "Specular Color",
+					"Value" : "#fbfbfb",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Specular Strength",
+					"Label" : "Specular Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Multiply Specular Through Opacity",
+					"Label" : "Multiply Specular Through Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Color",
+					"Label" : "Ambient Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Ambient Strength",
+					"Label" : "Ambient Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Opacity Strength",
+					"Label" : "Opacity Strength",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Bump Strength",
+					"Value" : 0.012,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Merlin/BattleBlades/MRLN_SwrdBld01B.jpg"
+				},
+				{
+					"Name" : "Negative Bump",
+					"Label" : "Negative Bump",
+					"Value" : -0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Positive Bump",
+					"Label" : "Positive Bump",
+					"Value" : 0.01,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Displacement Strength",
+					"Label" : "Displacement Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Minimum Displacement",
+					"Label" : "Minimum Displacement",
+					"Value" : -0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Maximum Displacement",
+					"Label" : "Maximum Displacement",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 0.006000001,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/Sword_01/ExportTextures/MRLN_SwrdBld01B_nm.png"
+				},
+				{
+					"Name" : "Reflection Color",
+					"Label" : "Reflection Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Reflection Strength",
+					"Label" : "Reflection Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Color",
+					"Label" : "Refraction Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Refraction Strength",
+					"Label" : "Refraction Strength",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Index of Refraction",
+					"Label" : "Index of Refraction",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Sheen Color",
+					"Label" : "Sheen Color",
+					"Value" : "#666666",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Scatter Color",
+					"Label" : "Scatter Color",
+					"Value" : "#cc260f",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Thickness",
+					"Label" : "Thickness",
+					"Value" : 0.25,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Lighting Model",
+					"Label" : "Lighting Model",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 89.9,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		}
+	],
+	"Morphs" : [
+	],
+	"MorphLinks" : {
+	},
+	"MorphNames" : [
+	],
+	"SkeletonData" : {
+		"skeletonScale" : [
+			"skeletonScale",
+			1
+		],
+		"offset" : [
+			"offset",
+			0
+		]
+	},
+	"HeadTailData" : {
+	},
+	"JointOrientation" : {
+	},
+	"LimitData" : {
+	},
+	"PoseData" : {
+		"MRLN_Sword01_4985" : {
+			"Name" : "MRLN_Sword01_4985",
+			"Label" : "Sword01",
+			"Object Type" : "MESH",
+			"Object" : "MRLN_Sword01_4985",
+			"Position" : [
+				-20.18881,
+				88.92536,
+				15.28602
+			],
+			"Rotation" : [
+				-5.330502,
+				17.08645,
+				78.60645
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		}
+	},
+	"Subdivisions" : [
+	],
+	"dForce" : [
+	]
+}
