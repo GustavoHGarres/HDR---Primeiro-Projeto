@@ -2,63 +2,84 @@ using UnityEngine;
 
 public class StatueController : MonoBehaviour
 {
-    public string sceneName = "SCN_Fase1";
-    public int statueIndex = 0; // id único por estátua/phase
-    public GameObject[] armorParts; // ordem: pernas, corpo, braços, etc.
+    [Header("Identificação da Estátua")]
+    public string sceneName = "SCN_Gameplay";
+    public int statueIndex = 0; // id único da estátua na cena
+
+    [Header("Peças da Armadura (ordem: braços, corpo, pernas, etc.)")]
+    public GameObject[] armorParts;
+
     private int currentPartsActive = 0;
     private string PartsKey => $"statue_{sceneName}_{statueIndex}_parts";
 
-    private void Start()
+    void Start()
     {
+        #if UNITY_EDITOR
+        PlayerPrefs.DeleteKey(PartsKey);
+        #endif
+
         currentPartsActive = PlayerPrefs.GetInt(PartsKey, 0);
         ApplyPartsState();
     }
 
-    // Ativa a próxima parte (usado quando coleta moeda)
+    // Ativa a próxima peça da sequência (0..N-1)
     public void ActivateNextPart()
     {
-        if (currentPartsActive >= armorParts.Length) return;
-        armorParts[currentPartsActive].SetActive(true);
-        currentPartsActive++;
-        PlayerPrefs.SetInt(PartsKey, currentPartsActive);
-        PlayerPrefs.Save();
+        ActivatePart(currentPartsActive);
     }
 
-    // Completa todas (usado quando pega emblema)
+    // Ativa uma peça específica pelo índice (0=Arms,1=Body,2=Legs...)
+    public void ActivatePart(int partIndex)
+    {
+        if (armorParts == null || armorParts.Length == 0) return;
+        if (partIndex < 0 || partIndex >= armorParts.Length) return;
+
+        // liga a peça se ainda não estiver ativa
+        if (armorParts[partIndex] && !armorParts[partIndex].activeSelf)
+            armorParts[partIndex].SetActive(true);
+
+        // atualiza o "progresso" como o maior índice + 1 já ativo
+        int maxIdx = -1;
+        for (int i = 0; i < armorParts.Length; i++)
+            if (armorParts[i] && armorParts[i].activeSelf) maxIdx = i;
+
+        currentPartsActive = Mathf.Max(currentPartsActive, maxIdx + 1);
+        Save();
+    }
+
     public void UnlockAllParts()
     {
-        for (int i = 0; i < armorParts.Length; i++)
-        {
-            armorParts[i].SetActive(true);
-        }
+        if (armorParts == null) return;
+        foreach (var p in armorParts)
+            if (p) p.SetActive(true);
+
         currentPartsActive = armorParts.Length;
-        PlayerPrefs.SetInt(PartsKey, currentPartsActive);
-        PlayerPrefs.Save();
+        Save();
     }
 
     void ApplyPartsState()
     {
+        if (armorParts == null) return;
         for (int i = 0; i < armorParts.Length; i++)
-            armorParts[i].SetActive(i < currentPartsActive);
+            if (armorParts[i]) armorParts[i].SetActive(i < currentPartsActive);
     }
 
-    // Para o protótipo: registrar a moeda coletada diretamente ativa a parte
-    private void OnEnable()
+    void Save()
     {
-        CoinEvents.OnCoinCollected += OnCoinCollected;
+        PlayerPrefs.SetInt(PartsKey, currentPartsActive);
+        PlayerPrefs.Save();
     }
 
-    private void OnDisable()
+    #if UNITY_EDITOR
+    [ContextMenu("🧹 Resetar progresso desta estátua")]
+    void DebugResetStatue()
     {
-        CoinEvents.OnCoinCollected -= OnCoinCollected;
+        PlayerPrefs.DeleteKey(PartsKey);
+        PlayerPrefs.Save();
+        currentPartsActive = 0;
+        ApplyPartsState();
+        Debug.Log($"[StatueController] Resetou progresso da estátua ({PartsKey})");
     }
+#endif
 
-    private void OnCoinCollected(string scene, int total)
-    {
-        if (scene != sceneName) return;
-        // método simples: cada vez que uma moeda é coletada, ativa a próxima parte
-        // no protótipo, ajuste a lógica (ex.: 3 moedas = 1 parte) conforme quiser
-        ActivateNextPart();
-    }
 }
-//

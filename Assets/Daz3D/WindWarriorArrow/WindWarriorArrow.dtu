@@ -1,0 +1,244 @@
+{
+	"DTU Version" : 4,
+	"Asset Name" : "WindWarriorArrow",
+	"Import Name" : "Wind Warrior Arrow",
+	"Asset Type" : "StaticMesh",
+	"Use Experimental Animation Transfer" : false,
+	"Asset Id" : "Wind Warrior Arow",
+	"Content Type" : "Prop/Arms/Hands",
+	"FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorArrow/WindWarriorArrow.fbx",
+	"Base FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorArrow/WindWarriorArrow_base.fbx",
+	"HD FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorArrow/WindWarriorArrow_HD.fbx",
+	"Import Folder" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorArrow/",
+	"Product Name" : "",
+	"Product Component Name" : "",
+	"Materials" : [
+		{
+			"Version" : 4,
+			"Asset Name" : "Wind Warrior Arrow",
+			"Asset Label" : "Wind Warrior Arrow",
+			"Material Name" : "Arrow Mat",
+			"Material Type" : "PBR SP",
+			"Value" : "Prop/Arms/Hands",
+			"Properties" : [
+				{
+					"Name" : "Asset Type",
+					"Label" : "Asset Type",
+					"Value" : "Prop/Arms/Hands",
+					"Data Type" : "String",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 89.9,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "OutlineColorID",
+					"Label" : "Material ID",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Metallic Weight",
+					"Label" : "Metallicity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Quiver-Arrow/Runner Quiver-Arow_01_M.jpg"
+				},
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Base Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Quiver-Arrow/Runner Quiver-Arow_01_D.jpg"
+				},
+				{
+					"Name" : "Glossy Reflectivity",
+					"Label" : "Glossy Reflectivity",
+					"Value" : 0.5,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossy Roughness",
+					"Label" : "Glossy Roughness",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Quiver-Arrow/Runner Quiver-Arow_01_R.jpg"
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Base Bump",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Quiver-Arrow/Runner Quiver-Arow_01_NRM.jpg"
+				},
+				{
+					"Name" : "Cutout Opacity",
+					"Label" : "Cutout Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Quiver-Arrow/Runner Quiver-Arow_01_A.jpg"
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Roughness Squared",
+					"Label" : "Roughness Squared",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		}
+	],
+	"Morphs" : [
+	],
+	"MorphLinks" : {
+	},
+	"MorphNames" : [
+	],
+	"SkeletonData" : {
+		"skeletonScale" : [
+			"skeletonScale",
+			1
+		],
+		"offset" : [
+			"offset",
+			0
+		]
+	},
+	"HeadTailData" : {
+	},
+	"JointOrientation" : {
+	},
+	"LimitData" : {
+	},
+	"PoseData" : {
+		"Wind Warrior Arrow" : {
+			"Name" : "Wind Warrior Arrow",
+			"Label" : "Wind Warrior Arrow",
+			"Object Type" : "MESH",
+			"Object" : "Wind Warrior Arrow",
+			"Position" : [
+				0,
+				54.30414,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		}
+	},
+	"Subdivisions" : [
+	],
+	"dForce" : [
+	]
+}

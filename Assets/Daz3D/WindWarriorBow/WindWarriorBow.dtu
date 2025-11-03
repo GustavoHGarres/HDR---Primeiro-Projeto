@@ -1,0 +1,793 @@
+{
+	"DTU Version" : 4,
+	"Asset Name" : "WindWarriorBow",
+	"Import Name" : "Wind Warrior Bow",
+	"Asset Type" : "SkeletalMesh",
+	"Use Experimental Animation Transfer" : false,
+	"Asset Id" : "Wind Warrior Bow",
+	"Content Type" : "Follower/Accessory/Arms/Hands",
+	"FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorBow/WindWarriorBow.fbx",
+	"Base FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorBow/WindWarriorBow_base.fbx",
+	"HD FBX File" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorBow/WindWarriorBow_HD.fbx",
+	"Import Folder" : "C:/Users/garre/OneDrive/Documentos/GitHub/HDR-Primeiro-Projeto/Assets/Daz3D/WindWarriorBow/",
+	"Product Name" : "",
+	"Product Component Name" : "",
+	"Materials" : [
+		{
+			"Version" : 4,
+			"Asset Name" : "Wind Warrior Bow",
+			"Asset Label" : "Wind Warrior Bow",
+			"Material Name" : "Bow Mat",
+			"Material Type" : "PBR SP",
+			"Value" : "Follower/Accessory/Arms/Hands",
+			"Properties" : [
+				{
+					"Name" : "Asset Type",
+					"Label" : "Asset Type",
+					"Value" : "Follower/Accessory/Arms/Hands",
+					"Data Type" : "String",
+					"Texture" : ""
+				},
+				{
+					"Name" : "UV Set",
+					"Label" : "UV Set",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth On",
+					"Label" : "Smooth",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Smooth Angle",
+					"Label" : "Angle",
+					"Value" : 36,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Preview Color",
+					"Label" : "Line Preview Color",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line Start Width",
+					"Label" : "Line Start Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line End Width",
+					"Label" : "Line End Width (mm)",
+					"Value" : 0.1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Line UV Width",
+					"Label" : "Line UV Width",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Render Priority",
+					"Label" : "Render Priority",
+					"Value" : 3,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Propagate Priority",
+					"Label" : "Propagate Priority",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Follow Blend",
+					"Label" : "Follow Blend",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "OutlineColorID",
+					"Label" : "Material ID",
+					"Value" : "#000000",
+					"Data Type" : "Color",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Metallic Weight",
+					"Label" : "Metallicity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Bow/Runner Bow_01_M.jpg"
+				},
+				{
+					"Name" : "Diffuse Color",
+					"Label" : "Base Color",
+					"Value" : "#ffffff",
+					"Data Type" : "Color",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Bow/Runner Bow_01_D.jpg"
+				},
+				{
+					"Name" : "Glossy Reflectivity",
+					"Label" : "Glossy Reflectivity",
+					"Value" : 0.5,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Glossy Roughness",
+					"Label" : "Glossy Roughness",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Bow/Runner Bow_01_R.jpg"
+				},
+				{
+					"Name" : "Bump Strength",
+					"Label" : "Base Bump",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Normal Map",
+					"Label" : "Normal Map",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : "C:/Users/Public/Documents/My DAZ 3D Library/Runtime/Textures/Linday/Wind Warrior Outfit/Runner Bow/Runner Bow_01_NRM.jpg"
+				},
+				{
+					"Name" : "Cutout Opacity",
+					"Label" : "Cutout Opacity",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Tiles",
+					"Label" : "Horizontal Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Horizontal Offset",
+					"Label" : "Horizontal Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Tiles",
+					"Label" : "Vertical Tiles",
+					"Value" : 1,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Vertical Offset",
+					"Label" : "Vertical Offset",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				},
+				{
+					"Name" : "Roughness Squared",
+					"Label" : "Roughness Squared",
+					"Value" : 0,
+					"Data Type" : "Double",
+					"Texture" : ""
+				}
+			]
+		}
+	],
+	"Morphs" : [
+	],
+	"MorphLinks" : {
+	},
+	"MorphNames" : [
+	],
+	"SkeletonData" : {
+		"skeletonScale" : [
+			"skeletonScale",
+			1
+		],
+		"offset" : [
+			"offset",
+			0
+		]
+	},
+	"HeadTailData" : {
+		"grip" : [
+			0.003076077,
+			0,
+			-0.000451088,
+			0.00307188,
+			0,
+			21.55464,
+			0,
+			-1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"lLimb 01 " : [
+			0,
+			13.02081,
+			0,
+			0,
+			34.5759,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"lLimb 02" : [
+			0,
+			40.02104,
+			-7.588088,
+			0,
+			77.16715,
+			-27.6712,
+			0,
+			0.4755929,
+			0.8796656,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"lString" : [
+			0,
+			77.16715,
+			-27.6712,
+			0,
+			119.3947,
+			-27.6712,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"Arrow" : [
+			0,
+			0,
+			-27.6712,
+			2.77,
+			0,
+			0.1568069,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"rLimb 01" : [
+			0,
+			-13.02081,
+			0,
+			0,
+			-34.5759,
+			0,
+			0,
+			0,
+			-1,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"rLimb 02" : [
+			0,
+			-40.02104,
+			-7.588088,
+			0,
+			-77.16715,
+			-27.6712,
+			0,
+			0.4755929,
+			-0.8796656,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"rString" : [
+			0,
+			-77.16715,
+			-27.6712,
+			0,
+			-34.93961,
+			-27.6712,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"Arrow Target" : [
+			1.965107,
+			0,
+			1.85,
+			1.97,
+			0,
+			10.20442,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
+	},
+	"JointOrientation" : {
+		"grip" : [
+			"XYZ",
+			0,
+			90,
+			0,
+			0.7071069,
+			0,
+			-0.7071067,
+			0
+		],
+		"lLimb 01 " : [
+			"YZX",
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0
+		],
+		"lLimb 02" : [
+			"YZX",
+			-28.39796,
+			0,
+			0,
+			0.9694497,
+			0.2452901,
+			0,
+			0
+		],
+		"lString" : [
+			"YZX",
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0
+		],
+		"Arrow" : [
+			"XYZ",
+			0,
+			-84.31551,
+			0,
+			0.7412997,
+			0,
+			0.6711742,
+			0
+		],
+		"rLimb 01" : [
+			"YZX",
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0
+		],
+		"rLimb 02" : [
+			"YZX",
+			28.39796,
+			0,
+			0,
+			0.9694497,
+			-0.2452901,
+			0,
+			0
+		],
+		"rString" : [
+			"YZX",
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0
+		],
+		"Arrow Target" : [
+			"XYZ",
+			0,
+			-89.96645,
+			0,
+			0.7073138,
+			0,
+			0.7068997,
+			0
+		]
+	},
+	"LimitData" : {
+		"grip" : [
+			"grip",
+			"XYZ",
+			-180,
+			180,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"lLimb 01 " : [
+			"lLimb 01 ",
+			"YZX",
+			-15,
+			0,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"lLimb 02" : [
+			"lLimb 02",
+			"YZX",
+			-15,
+			0,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"lString" : [
+			"lString",
+			"YZX",
+			0,
+			45,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"Arrow" : [
+			"Arrow",
+			"XYZ",
+			-180,
+			180,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"rLimb 01" : [
+			"rLimb 01",
+			"YZX",
+			0,
+			15,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"rLimb 02" : [
+			"rLimb 02",
+			"YZX",
+			0,
+			15,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"rString" : [
+			"rString",
+			"YZX",
+			-45,
+			0,
+			-180,
+			180,
+			-180,
+			180
+		],
+		"Arrow Target" : [
+			"Arrow Target",
+			"XYZ",
+			-180,
+			180,
+			-180,
+			180,
+			-180,
+			180
+		]
+	},
+	"PoseData" : {
+		"Wind Warrior Bow" : {
+			"Name" : "Wind Warrior Bow",
+			"Label" : "Wind Warrior Bow",
+			"Object Type" : "MESH",
+			"Object" : "Wind Warrior Bow",
+			"Position" : [
+				0,
+				100.7638,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"grip" : {
+			"Name" : "grip",
+			"Label" : "grip",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0.3688678,
+				0,
+				-4.253844
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"lLimb 01 " : {
+			"Name" : "lLimb 01 ",
+			"Label" : "lLimb 01",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"lLimb 02" : {
+			"Name" : "lLimb 02",
+			"Label" : "lLimb 02",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"lString" : {
+			"Name" : "lString",
+			"Label" : "lString",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"Arrow" : {
+			"Name" : "Arrow",
+			"Label" : "Arrow",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				-1.876166,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"rLimb 01" : {
+			"Name" : "rLimb 01",
+			"Label" : "rLimb 01",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"rLimb 02" : {
+			"Name" : "rLimb 02",
+			"Label" : "rLimb 02",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"rString" : {
+			"Name" : "rString",
+			"Label" : "rString",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		},
+		"Arrow Target" : {
+			"Name" : "Arrow Target",
+			"Label" : "Arrow Target",
+			"Object Type" : "BONE",
+			"Object" : "EMPTY",
+			"Position" : [
+				0,
+				0,
+				0
+			],
+			"Rotation" : [
+				0,
+				0,
+				0
+			],
+			"Scale" : [
+				1,
+				1,
+				1
+			]
+		}
+	},
+	"Subdivisions" : [
+	],
+	"dForce" : [
+	]
+}

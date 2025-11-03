@@ -10,15 +10,12 @@ public class MenuSceneLoader : MonoBehaviour
     public KeyCode toggleKey = KeyCode.M;
 
     bool isOpen;
-    AsyncOperation loadOp;
 
-    // coloque num script da SCN_Gameplay (ex.: no _MenuLoader ou GameManager)
     void Start()
     {
-         if (GameProgress.Instance != null)
-         GameProgress.Instance.ResetChestProgress(); // zera: 0/3 e locked
+        // Se quiser resetar progressos de chest aqui, mantenha; senão, remova:
+        // GameProgress.Instance?.ResetChestProgress();
     }
-
 
     void Update()
     {
@@ -34,13 +31,14 @@ public class MenuSceneLoader : MonoBehaviour
         if (isOpen) return;
         isOpen = true;
 
-        // pausa o jogo e mostra o cursor
+        // Antes de abrir, aplica o salvo para o gameplay refletir corretamente
+        EquipmentManager.Instance?.ApplySavedStateForAllExisting();
+
         Time.timeScale = 0f;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
-        // carrega a cena do menu em modo aditivo
-        loadOp = SceneManager.LoadSceneAsync(menuSceneName, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(menuSceneName, LoadSceneMode.Additive);
     }
 
     public void CloseMenu()
@@ -48,12 +46,13 @@ public class MenuSceneLoader : MonoBehaviour
         if (!isOpen) return;
         isOpen = false;
 
-        // retoma o jogo e esconde o cursor (ajuste se quiser manter visível)
+        // Ao fechar, também aplica o salvo (garante que o mundo fique coerente)
+        EquipmentManager.Instance?.ApplySavedStateForAllExisting();
+
         Time.timeScale = 1f;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
-        // descarrega a cena do menu
         if (SceneManager.GetSceneByName(menuSceneName).isLoaded)
             SceneManager.UnloadSceneAsync(menuSceneName);
     }

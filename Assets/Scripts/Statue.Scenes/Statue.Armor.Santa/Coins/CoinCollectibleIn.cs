@@ -1,4 +1,3 @@
-// CoinCollectible.cs
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,19 +6,17 @@ public class CoinCollectibleIn : MonoBehaviour
 {
     [Tooltip("Se vazio, usa a cena ativa.")]
     public string sceneName = "";
+
+    [Tooltip("Canal do grupo (ex.: ARMS, CHEST, LEGS). Se vazio, usa GLOBAL.")]
+    public string counterKey = "GLOBAL";
+
     public int value = 1;
     public ParticleSystem pickupVFX;
     public AudioClip pickupSfx;
     public bool destroyOnPickup = true;
 
-    string Key
-    {
-        get
-        {
-            var s = string.IsNullOrEmpty(sceneName) ? SceneManager.GetActiveScene().name : sceneName;
-            return $"coins_{s}";
-        }
-    }
+    string SceneResolved => string.IsNullOrEmpty(sceneName) ? SceneManager.GetActiveScene().name : sceneName;
+    string PrefsKey      => $"coins_{SceneResolved}_{counterKey}";
 
     void Reset() { GetComponent<Collider>().isTrigger = true; }
 
@@ -27,13 +24,11 @@ public class CoinCollectibleIn : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        int total = PlayerPrefs.GetInt(Key, 0) + Mathf.Max(1, value);
-        PlayerPrefs.SetInt(Key, total);
+        int total = PlayerPrefs.GetInt(PrefsKey, 0) + Mathf.Max(1, value);
+        PlayerPrefs.SetInt(PrefsKey, total);
         PlayerPrefs.Save();
 
-        // avisa watchers
-        var s = string.IsNullOrEmpty(sceneName) ? SceneManager.GetActiveScene().name : sceneName;
-        CoinEvents.InvokeOnCoinCollected(s, total);
+        CoinEvents.Invoke(SceneResolved, counterKey, total);
 
         if (pickupVFX) Instantiate(pickupVFX, transform.position, Quaternion.identity);
         if (pickupSfx) AudioSource.PlayClipAtPoint(pickupSfx, transform.position);
